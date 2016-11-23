@@ -3,7 +3,7 @@ Transform your nodeMCU into an OpenSoundControl device
 
 1) Copy all these source files to a folder in your computer
 
-2) Run Arduino and install the following libraries: ESP8266WiFi and WiFiUdp
+2) Run Arduino and install the following libraries: ESP8266WiFi and WiFi (Standard arduino library)
 
 3) Open the .ino file at your folder
 
