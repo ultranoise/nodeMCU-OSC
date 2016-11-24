@@ -19,6 +19,7 @@ Setup Instructions:
     Click install
     Click close
     Restart Arduino IDE
+    Select your board from Tools > Board
 
 
 4) Open the .ino file at your folder
