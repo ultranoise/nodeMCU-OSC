@@ -1,6 +1,8 @@
 # nodeMCU-OSC
 Transform your nodeMCU into an OpenSoundControl device
 
+Setup Instructions:
+
 1) Copy all these source files to a folder in your computer
 
 2) Run Arduino and install the library WiFi (Standard arduino library)
