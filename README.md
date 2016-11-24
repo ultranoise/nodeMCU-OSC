@@ -19,7 +19,7 @@ Setup Instructions:
     Click install
     Click close
     Restart Arduino IDE
-    Select your board from Tools > Board
+    Select your board from Tools > Board > NodeMCU 1.0
 
 
 4) Open the .ino file at your folder
