@@ -35,7 +35,7 @@ Setup Instructions:
 
 Notes:
 
-By default, this code creates an access point with no password. Find a  WiFi called "kike &&&" and connect to it, this is your nodeMCU. It will have the IP: 192.168.4.1
+By default, with this source code, nodeMCU creates an access point with no password and name "nodeMCU-OSC &&&". Now you can connect another Wifi device to the MCU. By default, nodeMCU will have the IP: 192.168.4.1 and your device will have the IP: 192.168.4.2
 
 As you will see in the source code, the example transmits OSC data to 192.168.4.2 (port 9999) which is the IP of the first device connected to the nodeMCU. 
 
