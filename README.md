@@ -5,9 +5,12 @@ Setup Instructions:
 
 1) Copy all these source files to a folder in your computer
 
-2) Run Arduino. Go to Sketch > Include Library and install the "WiFi (Built-in)"
+2) Only for MAC OSX users: 
+- For uploading code to your nodeMCU you will need the SiLabs driver for mcu. It is a USB to UART Bridge that you need to install or the operating system won't create a serial port to upload code from Arduino. It can be found here: https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
 
-3) If it is the first time you work with a nodeMCU board and Arduino:
+3) Run Arduino. Go to Sketch > Include Library and install the "WiFi (Built-in)"
+
+4) If it is the first time you work with a nodeMCU board and Arduino:
 
     Open Arduino IDE
     Open Preferences
@@ -22,11 +25,13 @@ Setup Instructions:
     Select your board from Tools > Board > NodeMCU 1.0 (ESP-12E Module) 
 
 
-4) Open the .ino file at your folder
+5) Open the .ino file at your folder
 
-5) When you Save or Compile your project, Arduino needs to copy your .ino file into a folder of the same name but it does not copy the files you downloaded from this respository. Please copy or move all the .h and .cpp files downloaded from this repository to the new folder created by Arduino (namely common.h, osc.cpp, osc.h). 
+6) When you Save or Compile your project, Arduino needs to copy your .ino file into a folder of the same name but it does not copy the files you downloaded from this respository. Please copy or move all the .h and .cpp files downloaded from this repository to the new folder created by Arduino (namely common.h, osc.cpp, osc.h). 
 
-6) Compile and Upload to your nodeMCU board.
+7) Select your Port at Tools > Port (OSX users it will be something like cu.SLAB_USBtoUART) 
+
+8) Compile and Upload to your nodeMCU board. Wait until the uploading process has finished (look at Arduino's text terminal and wait until it reaches [ 100% ] )
 
 Notes:
 
