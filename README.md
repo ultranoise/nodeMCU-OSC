@@ -26,6 +26,8 @@ Setup Instructions:
 
 5) When you Save or Compile your project, Arduino needs to copy your .ino file into a folder of the same name but it does not copy the files you downloaded from this respository. Please copy or move all the .h and .cpp files downloaded from this repository to the new folder created by Arduino (namely common.h, osc.cpp, osc.h). 
 
+6) Compile and Upload to your nodeMCU board.
+
 Notes:
 
 By default, this code creates an access point with no password. Find a  WiFi called "kike &&&" and connect to it, this is your nodeMCU. It will have the IP: 192.168.4.1
