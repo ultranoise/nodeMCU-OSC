@@ -144,20 +144,20 @@ void loop()
       }
       if (request.indexOf("/connect_form.asp?") != -1)  {
         Serial.println(" ");
-        Serial.println("ha llegado un connect");
+        Serial.println("I have received a connect request");
         //find its content
         String s1 = request.substring(30); //string starting in wifi's name
         //Serial.println(s1);
         int amp = s1.indexOf('&');
         String wifi2connect = s1.substring(0,amp); //the ssid of the new wifi
-        Serial.println("ha llegado ssid");
+        Serial.println("I received a ssid");
         Serial.println(wifi2connect);
         int equal = s1.indexOf('=');
         String s2 = s1.substring(equal+1);
         //Serial.println(s2);
         int space = s2.indexOf("HTTP");
         String pass2connect = s2.substring(0,space);
-        Serial.println("ha llegado passw");
+        Serial.println("I received a passw");
         Serial.println(pass2connect);
         
       }
@@ -250,7 +250,7 @@ void GUImanager(WiFiClient& cl) {
       cl.print("<body bgcolor=\"#F4E242\">");
       
       
-      cl.print("<strong>NodeMCU - mini RaspIC Controller: </strong>");
+      cl.print("<strong>NodeMCU - nodeMCU-OSC Controller: </strong>");
       if(WiFiStatus == 1){
         cl.println("<br><br>");
         cl.print("<strong>WiFi Status:  </strong>");
