@@ -20,8 +20,8 @@
 #include "osc.h"
 
 
-char ssid[] = "himbeerLab";  //  your network SSID (name)
-char pass[] = "himbeerLabEEU";       // your network password
+char ssid[] = "myWifiName";  //  your network SSID (name)
+char pass[] = "myWifiPassw";       // your network password
 
 
 unsigned int localPort = 2390;      // local port to listen for UDP packets
@@ -29,6 +29,7 @@ unsigned int sendPort = 9999;       //port to transmit to computer
 
 /* Don't hardwire the IP address or we won't get the benefits of the pool.
  *  Lookup the IP address for the host name instead */
+
 IPAddress timeServerIP(192, 168, 4, 2); // time.nist.gov NTP server
 //IPAddress timeServerIP; // time.nist.gov NTP server address
 //const char* ntpServerName = "time.nist.gov";
@@ -396,7 +397,7 @@ void setupWiFiAP() {
   String macID = String(mac[WL_MAC_ADDR_LENGTH - 2], HEX) +
                  String(mac[WL_MAC_ADDR_LENGTH - 1], HEX);
   macID.toUpperCase();
-  String AP_NameString = "kike " + macID;
+  String AP_NameString = "nodeMCU-OSC " + macID;
 
   char AP_NameChar[AP_NameString.length() + 1];
   memset(AP_NameChar, 0, AP_NameString.length() + 1);
