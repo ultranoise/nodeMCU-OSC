@@ -5,7 +5,7 @@ Setup Instructions:
 
 1) Copy all these source files to a folder in your computer
 
-2) Run Arduino and install the library WiFi (Standard arduino library)
+2) Run Arduino. Go to Sketch > Include Library and install the "WiFi (Built-in)"
 
 3) If it is the first time you work with a nodeMCU board and Arduino:
 
@@ -23,6 +23,8 @@ Setup Instructions:
 
 
 4) Open the .ino file at your folder
+
+5) When you Save or Compile your project, Arduino needs to copy your .ino file into a folder of the same name but it does not copy the files you downloaded from this respository. Please copy or move all the .h and .cpp files downloaded from this repository to the new folder created by Arduino (namely common.h, osc.cpp, osc.h). 
 
 Notes:
 
