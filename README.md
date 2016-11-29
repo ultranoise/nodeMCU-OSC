@@ -5,7 +5,7 @@ Setup Instructions:
 
 1) Copy all these source files to a folder in your computer
 
-2) Only for MAC OSX users: 
+2) Only for MAC OSX and Windows users: 
 - For uploading code to your nodeMCU you will need the SiLabs driver for mcu. It is a USB to UART Bridge that you need to install or the operating system won't create a serial port to upload code from Arduino. It can be found here: https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
 
 3) Run Arduino. Go to Sketch > Include Library and install the "WiFi (Built-in)"
